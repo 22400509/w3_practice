@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>edit</title>
+</head>
+<body>
+
+<h1>글 수정하기</h1>
+
+<form action="edit_ok.jsp" method="post">
+    <div>
+        <label for="title">제목:</label>
+        <input type="text" id="title" name="title" value="(샘플) 첫 번째 글" />
+    </div>
+    <div>
+        <label for="author">작성자:</label>
+        <input type="text" id="author" name="author" value="관리자" readonly /> </div>
+    <div>
+        <label for="content">내용:</label>
+        <textarea id="content" name="content">여기에 샘플 글 내용이 들어갑니다.</textarea>
+    </div>
+    <div>
+        <label for="category">내용:</label>
+            <select id="category" name="category">
+                <option value="notice">공지사항</option>
+                <option value="free">자유게시판</option>
+                <option value="qna">질문답변</option>
+            </select>
+    </div>
+    <div>
+        <label for="isPublic">공개글:</label>
+        <input type="checkbox" id="isPublic" name="isPublic" checked />
+    </div>
+    <div>
+        <input type="submit" value="수정 완료" />
+        <a href="view.jsp"><button type="button">취소</button></a>
+    </div>
+</form>
+
+</body>
+</html>
