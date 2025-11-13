@@ -3,6 +3,7 @@
 <head>
   <title>글 상세보기</title>
 </head>
+
 <body>
 
 <h1>글 상세보기</h1>
