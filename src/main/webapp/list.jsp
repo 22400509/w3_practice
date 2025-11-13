@@ -19,7 +19,7 @@
     <tbody>
     <tr>
         <td>1</td>
-        <td>공지사항</td> <td><a href="view.jsp">(샘플) 첫 번째 글</a></td>
+        <td>공지사항</td>  <td><a href="view.jsp">(샘플) 첫 번째 글</a></td>
 
         <td>관리자</td>
     </tr>
