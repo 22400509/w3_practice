@@ -5,8 +5,7 @@
 </head>
 <body>
 <%
-  // 폼에서 보낸 데이터 받기
-  request.setCharacterEncoding("UTF-8"); // 한글 깨짐 방지
+  request.setCharacterEncoding("UTF-8");
   String title = request.getParameter("title");
   String author = request.getParameter("author");
   String content = request.getParameter("content");
