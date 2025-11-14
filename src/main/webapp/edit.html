@@ -11,11 +11,15 @@
         body {
             background-color: #f4f4f4;
         }
+        h1 {
+            text-align: center;
+            margin-bottom: 50px;
+        }
     </style>
 </head>
 <body class="py-4">
 
-<h1>게시물 수정</h1>
+<h1 class="fw-bold">게시물 수정</h1>
 
 <div class="container bg-white p-4 rounded shadow-sm" style="max-width: 700px;">
         <form action="edit_ok.jsp" method="post">
@@ -23,7 +27,7 @@
             <div class="row mb-3">
                 <label for="title" class="col-sm-2 col-form-label fw-bold">제목:</label>
                 <div class="col-sm-10">
-                    <input type="text" class="form-control" id="title" name="title" value="(샘플) 첫 번째 글" /> <%-- 예: value="${post.title}" --%>
+                    <input type="text" class="form-control" id="title" name="title" value="(샘플) 첫 번째 글" />
                 </div>
             </div>
 
@@ -31,7 +35,7 @@
                 <label for="author" class="col-sm-2 col-form-label fw-bold">작성자:</label>
                 <div class="col-sm-10">
 
-                    <input type="text" class="form-control-plaintext" id="author" name="author" value="관리자" readonly /> <%-- 예: value="${post.author}" --%>
+                    <input type="text" class="form-control-plaintext" id="author" name="author" value="관리자" readonly />
                 </div>
             </div>
 
@@ -49,7 +53,7 @@
             <div class="row mb-3">
                 <label for="content" class="col-sm-2 col-form-label fw-bold">내용:</label>
                 <div class="col-sm-10">
-                    <textarea class="form-control" id="content" name="content" style="height: 150px;">여기에 샘플 글 내용이 들어갑니다.</textarea> <%-- 예: ${post.content} --%>
+                    <textarea class="form-control" id="content" name="content" style="height: 150px;">여기에 샘플 글 내용이 들어갑니다.</textarea>
                 </div>
             </div>
 

@@ -7,11 +7,15 @@
         body {
             background-color: #f4f4f4;
         }
+        h1 {
+            text-align: center;
+            margin-bottom: 50px;
+        }
     </style>
 </head>
 <body class="py-4">
 
-<h1>게시판</h1>
+<h1 class="fw-bold">게시판</h1>
 
 <div class="container bg-white p-4 rounded shadow-sm" style="max-width: 800px;">
 

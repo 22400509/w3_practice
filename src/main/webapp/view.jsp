@@ -7,6 +7,10 @@
     body {
       background-color: #f4f4f4;
     }
+    h1 {
+      text-align: center;
+      margin-bottom: 50px;
+    }
     .post-content-display {
       min-height: 200px;
     }
@@ -14,7 +18,7 @@
 </head>
 <body class="py-4">
 
-<h1>글 상세보기</h1>
+<h1 class="fw-bold">글 상세보기</h1>
 
 <div class="container bg-white p-4 rounded shadow-sm" style="max-width: 800px;">
   <div class="mb-2 row">
@@ -45,8 +49,6 @@
   <hr class="my-4">
   <div class="p-3 bg-light rounded post-content-display">
     여기에 샘플 글 내용이 들어갑니다.
-    <br><br>
-    JSP를 통해 실제 글 내용이 출력되는 영역입니다.
   </div>
 
   <div class="d-flex justify-content-end gap-2 mt-4">
