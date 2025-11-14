@@ -6,9 +6,71 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>write</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+            background-color: #f4f4f4;
+        }
+
+        h1 {
+            text-align: center;
+        }
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        form div {
+            margin-bottom: 15px;
+        }
+        label {
+            display: inline-block;
+            width: 100px;
+            font-weight: bold;
+            vertical-align: top;
+        }
+        input[type="text"],
+        select,
+        textarea {
+            width: 70%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        textarea {
+            height: 150px;
+        }
+
+        input[type="checkbox"] {
+            margin-left: 5px;
+        }
+
+        input[type="submit"] {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
-<h1>새 글 쓰기</h1>
+<h1>게시물 추가</h1>
 
 <form action="write_ok.jsp" method="post">
     <div>
