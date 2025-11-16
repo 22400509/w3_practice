@@ -25,7 +25,6 @@
 #
 ## 톰캣 실행
 #CMD ["catalina.sh", "run"]
-FROM
-tomcat:9.0
+FROM tomcat:9.0
 ADD war/*.war /usr/local/tomcat/webapps/
 CMD ["catalina.sh", "run"]
